@@ -55,7 +55,7 @@ pipeline {
                 sh '''
 
                 mvn clean verify sonar:sonar \
-                    -Dsonar.projectKey=onlin-Manar-Alolasi \
+                    -Dsonar.projectKey=online-ManarAlolasi-B2D2 \
                     -Dsonar.host.url=http://$SONAR_IP \
                     -Dsonar.login=$SONAR_TOKEN
 
