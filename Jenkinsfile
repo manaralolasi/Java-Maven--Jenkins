@@ -7,7 +7,7 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
 
         AWS_S3_BUCKET = "manar-belt2d2-artifacts-123456" 
-        ARTIFACT_NAME = "hello-world.war" 
+        ARTIFACT_NAME = "hello-world.jar" 
         AWS_EB_APP_NAME = "Manar-belt2-day2" 
         AWS_EB_APP_VERSION = "${BUILD_ID}" 
         AWS_EB_ENVIRONMENT = "Manarbelt2day2-env" 
