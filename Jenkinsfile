@@ -13,7 +13,7 @@ pipeline {
         AWS_EB_ENVIRONMENT = "Manarbelt2day2-env" 
 
         SONAR_IP = "52.23.193.18"
-        SONAR_TOKEN = "sqp_d780c4fbce371fd81d22660309692d27bb28c75f"
+        SONAR_TOKEN = "sqp_d4f9eeb7d579b26d843e49d473c37384d4fd42cd"
 
     }
 
