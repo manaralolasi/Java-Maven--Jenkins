@@ -13,7 +13,7 @@ pipeline {
         AWS_EB_ENVIRONMENT = "Manarbelt2day2-env" 
 
         SONAR_IP = "52.23.193.18"
-        SONAR_TOKEN = "sqp_a8556dd62aad47ba044e0adf89378690d92d49b4"
+        SONAR_TOKEN = "sqp_169bf61a4e91d7b14cb6bcba61ced558acc4fb5e"
 
     }
 
@@ -55,7 +55,7 @@ pipeline {
                 sh '''
 
                 mvn clean verify sonar:sonar \
-                    -Dsonar.projectKey=online-Manar-B2D2 \
+                    -Dsonar.projectKey=online-Manar-D2B2 \
                     -Dsonar.host.url=http://$SONAR_IP \
                     -Dsonar.login=$SONAR_TOKEN
 
