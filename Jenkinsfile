@@ -3,8 +3,8 @@ pipeline {
 
     environment {
 
-        AWS_ACCESS_KEY_ID     = credentials('Manar-aws-secret-key-id')
-        AWS_SECRET_ACCESS_KEY = credentials('Manar-aws-secret-access-key')
+        AWS_ACCESS_KEY_ID     = credentials('AWS_ACCESS_KEY_ID')
+        AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
 
         AWS_S3_BUCKET = "manar-belt2d2-artifacts-123456" 
         ARTIFACT_NAME = "hello-world.war" 
